@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Space X Experiment</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="images/icon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="images/icon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/icon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/icon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/icon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/icon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/icon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/icon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/icon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="images/icon/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/icon/favicon-16x16.png">
+    <link rel="manifest" href="images/icon/manifest.json">
+    <link rel="mask-icon" href="images/icon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-TileImage" content="images/icon/mstile-144x144.png">
+    <link rel="stylesheet" href="styles/reset.css"/>
+    <link rel="stylesheet" href="styles/style.css"/>
+  </head>
+  <body>
+
+    <audio src="songs/speed.mp3" class="speedSong"></audio>
+    <audio src="songs/background.mp3" class="backgroundSong" loop></audio>
+
+    <div class="preloader">
+        <div class="center"></div>
+        <div class="orbit">
+            <div class="orbit-circle"></div>
+        </div>
+        <img src="images/spaceX-logo.png" alt="Logo SpaceX" class="logoPreload">
+    </div>
+
+    <div class="solarSystem">
+      <div class="background">
+        <div class="stars">
+          <div class="cube">
+            <div class="faces back"></div>
+            <div class="faces top"></div>
+            <div class="faces bottom"></div>
+            <div class="faces right"></div>
+            <div class="faces left"></div>
+          </div>
+        </div>
+      </div>
+      <div class="earth">
+          <div class="haloEarth"></div>
+          <div class="haloWhite"></div>
+        <img class="imgEarth"src="images/earth.png" alt="earth">
+        <div class="buttonHover">
+          <div class="button">
+            <div class="buttonCenter"></div>
+            <div class="text">Click here to launch</div>
+          </div>
+        </div>
+      </div>
+      <div class="moon">
+          <img src="images/moon.png" class="moonImg" alt="moon">
+          <div class="shadowMoon"></div>
+     </div>
+     <div class="mars">
+        <img class="imgMars"src="images/mars.png" alt="mars">
+        <div class="shadowMars"></div>
+        <div class="haloMars"></div>
+        <div class="container-svg">
+            <svg class="circle"></svg>
+            <p class="share">Share</p>
+          </div>
+      </div>
+      <div class="homePageTitle">
+        <div class="spaceXLogo">
+          <img src="images/spaceX-logo.png">
+        </div>
+        <h1 class="title">Discover the reusable thrower Falcon 9</h1>
+        <a class="mainButton "href="#">Jump into the experience</a>
+      </div>
+      <div class="landingPad">
+        <img src="images/landingPad.jpg" alt="landingPad">
+      </div>
+      <div class="rocket">
+        <div class="topRocket">
+          <img src="images/topRocket.png" alt="topRocket">
+        </div>
+        <div class="middleRocket">
+          <img src="images/MiddleRocket.png" alt="middleRocket">
+        </div>
+        <div class="bottomRocket">
+          <img src="images/bottomRocket.png" alt="bottomRocket">
+        </div>
+      </div>
+      <div class="stepIndicator">
+        <div class="step item1"></div>
+        <div class="separator n1"></div>
+        <div class="step item2"></div>
+        <div class="separator n2"></div>
+        <div class="step item3"></div>
+        <div class="separator n3"></div>
+        <div class="step item4"></div>
+        <div class="separator n4"></div>
+        <div class="step item5"></div>
+        <div class="separator n5"></div>
+        <div class="step item6"></div>
+        <div class="separator n6"></div>
+        <div class="step item7"></div>
+        <div class="separator n7"></div>
+        <div class="step item8"></div>
+      </div>
+      <div class="informationTab controls">
+        <div class="title">Controls</div>
+        <p>- Swipe up or swipe down</p>
+        <p>- Click on the scrollbar</p>
+        <p>- Press the left and right key</p>
+      </div>
+      <div class="informationTab end"><p>The Experience is finished. The Falcon 9 truster will be able to take off 9 more times</p></div>
+      <div class="buttonHover2">
+        <div class="button2">
+          <div class="buttonCenter2"></div>
+          <div class="text2"></div>
+        </div>
+      </div>
+      <div class="buttonHover3">
+        <div class="button3">
+          <div class="buttonCenter3"></div>
+          <div class="text3"></div>
+        </div>
+      </div>
+  </div>
+
+  <script src="scripts/main.js"></script>
+    
+  </body>
+</html>
