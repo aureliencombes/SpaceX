@@ -923,7 +923,7 @@ left: 15px;
 
 .rocket .middleRocket.step4
 {
-    transform: scale(0.2)rotate(-40deg) translate(-810%,-1500%);
+    transform: scale(0.2)rotate(-40deg) translate(-2000%,-2500%);
     transition: 2s ease-out;
 }
 
@@ -982,7 +982,7 @@ left: 15px;
 
 .rocket .middleRocket.step5
 {
-    transform: scale(0.2)rotate(-40deg) translate(-810%,-1500%);
+    transform: scale(0.2)rotate(-40deg) translate(-2000%,-2500%);
     transition: 2s ease-out;
 }
 
@@ -1039,13 +1039,13 @@ left: 15px;
 
 .rocket .middleRocket.step6
 {
-    transform: scale(0.2)rotate(-40deg) translate(-810%,-1500%);
+    transform: scale(0.2)rotate(-40deg) translate(-2000%,-2500%);
     transition: 2s ease-out;
 }
 
 .rocket .topRocket.step6
 {
-    transform: scale(0.4) translate(-2000%,-1000%) rotate(-30deg);
+    transform: scale(0.5) translate(-2000%,-1000%) rotate(-30deg);
     transition: 1.2s ease-out;
 }
 
@@ -1106,13 +1106,13 @@ left: 15px;
 
 .rocket .middleRocket.step7
 {
-    transform: scale(0.2)rotate(-40deg) translate(-810%,-1500%);
+    transform: scale(0.2)rotate(-40deg) translate(-2000%,-2500%);
     transition: 2s ease-out;
 }
 
 .rocket .topRocket.step7
 {
-    transform: scale(0.4) translate(-2000%,-1000%) rotate(-30deg);
+    transform: scale(0.5) translate(-2000%,-1000%) rotate(-30deg);
     transition: 1.2s ease-out;
 }
 
